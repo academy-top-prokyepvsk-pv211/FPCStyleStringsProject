@@ -72,6 +72,7 @@ void CStyleStringSort()
 }
 
 void CStrSubstring(char* dest, char* src, int position, int size);
+void CStrSubstring(char* dest, const char* src, int position, int size);
 void CStrReplace(char* dest, char* src, char* oldStr, char* newStr);
 void CStrReplace(char* dest, char* src, const char* oldStr, const char* newStr);
 
